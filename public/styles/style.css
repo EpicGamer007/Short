@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'komoda';
+	src: url('/fonts/komoda.otf');  
+}
+
+* {
+	margin: 0;
+	padding: 0;
+    outline: none;
+}
+
+body {
+	font-family: 'komoda';
+	background-color: black;
+	color: ghostwhite;
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+form input{
+	font-size: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 8px;
+	height: 60px;
+	background-color: black;
+	color: ghostwhite;
+	border: 3px solid rgb(1, 1, 58);
+	-webkit-transition: border 1s;
+	transition: border 1s;
+	padding: 5px;
+}
+
+
+form input:focus {
+	border: 3px solid blue;
+}
+
+form button {
+	font-size: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 8px;
+	/* height: 100px; */
+	background-color: black;
+	color: ghostwhite;
+	border: 3px solid rgb(1, 1, 58);
+	-webkit-transition: border 1s;
+	transition: border 1s;
+	padding: 5px;
+}
+
+form button:hover {
+	border: 3px solid blue;
+	cursor: pointer;
+}
+
+a {
+	font-family: Verdana;
+	text-decoration: none;
+	letter-spacing: normal;
+}
+
+ul li{
+	text-decoration: none;	
+	letter-spacing: normal;
+	font-family: Verdana;
+}
+
+#shortened {
+	font-size: 30px;
+}
+
+#url {
+	font-size: 40px;
+}
+
+h3 {
+	letter-spacing: normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
