@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 
-let urls = {};
+let urls;
 
 console.log("Getting urls from db");
 
